@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Maya Taylor Portfolio</title>
+    <title>Maya Taylor Portfolio - Page 2</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -14,27 +14,20 @@
     <!-- Custom CSS for the '3 Col Portfolio' Template -->
     <link href="css/3-col-portfolio.css" rel="stylesheet">
 
-    <!-- Custom CSS for fixing image size -->
+    <!-- Custom CSS for fixing image size and centering images -->
     <style>
         .portfolio-item {
-            text-align: center;
+            text-align: center; /* Center align the content */
             margin-bottom: 40px;
         }
         .portfolio-item img {
             max-height: 200px; /* Adjust the height as needed */
             width: auto;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .portfolio-item h3 {
-            margin-top: 20px;
-        }
-        .portfolio-item p {
-            margin-bottom: 20px;
+            display: block;
+            margin: 0 auto 15px; /* Center the images */
         }
     </style>
 </head>
-
 <body>
 
 <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
@@ -53,8 +46,6 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
-                <!--<li><a href="about.html">About</a></li> -->
-                <!--<li><a href="#services">Services</a></li>-->
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </div><!-- /.navbar-collapse -->
@@ -64,77 +55,41 @@
 <div class="container">
 
     <div class="row">
-
         <div class="col-lg-12">
             <h1 class="page-header">Maya Taylor Portfolio <small>UBC Electrical Engineering</small></h1>
         </div>
-
     </div>
 
     <div class="row">
-
         <div class="col-md-4 portfolio-item">
-            <!-- Corrected the href to the GitHub repository link -->
-            <a href="https://github.com/maya-taylor/N76E003-Alarm-Clock" target="_blank">
-                <img class="img-responsive" src="https://lh3.googleusercontent.com/pw/AP1GczP9Nuw78Jvgt1qIYBirNPYfyt6ectm_TwW2bGsFHs0Enc4WB6uK6EzSInkAOGWSE9MyKxktzuOmMTt2iZztQJDpxMjHs8x8MLTBsWNgYoSUs-MbL2A=w2400">
+            <!-- New portfolio item 1 -->
+            <a href="https://github.com/maya-taylor/Lab6HeartRate" target="_blank">
+                <img class="img-responsive" src="https://lh3.googleusercontent.com/pw/AP1GczP2XcC9hI5TEHBixfM7G3M4TsOjQivBS3NxECJRi5ACHDVC78x7EpbFO6EH74RUTsWiCOexV6jnsJc3S3qKho2j2Xm551LjA6jn-5QMaPiZVqujum8=w2400">
             </a>
-            <h3><a href="https://github.com/maya-taylor/N76E003-Alarm-Clock" target="_blank">Alarm Clock on N76E003 Microcontroller</a></h3>
-            <p>Alarm clock built on N76E003 Microcontroller using Assembly 8051. Click to go to the GitHub for this project!</p>
+            <h3><a href="https://github.com/maya-taylor/Lab6HeartRate" target="_blank">Heart Rate Monitor</a></h3>
+            <p>Heart rate monitor built using STM32 microcontroller. Heart rate information graphed using Python and can be displayed in 'Graph Mode' or 'Game Mode'.</p>
         </div>
 
-        <div class="col-md-4 portfolio-item">
-            <!-- Corrected the href to the GitHub repository link -->
-            <!-- Fixing the links for metal detector once I have the go ahead to deprivate the repo-->
-            <a href="#robot" target="_blank">
-                <img class="img-responsive" src="https://lh3.googleusercontent.com/pw/AP1GczOcW3wfgajlQCIG8qUwEM1jUiJOTqUuFccGg2fd2lvFVMFN5OcF2vUKwPXZQioUMmjS_UoIKbbBs-OePOIWdmQnYiW0nyf-wlhE3F_cbiwZ2f0h8og=w2400">
-            </a>
-            <h3><a href="#robot" target="_blank">Metal Detecting Robot</a></h3>
-            <p>Metal detecting robot built on STM32 and EFM8 microcontrollers. Controlled by joystick and/or laptop via radio communication. </p>
-        </div>
-
-        <div class="col-md-4 portfolio-item">
-            <!-- Corrected the href to the GitHub repository link -->
-            <a href="rocket_pcb.html" target="_blank">
-                <img class="img-responsive" src="https://lh3.googleusercontent.com/pw/AP1GczOdC0SRTU6X7A5gjvKrXixbxPYVAZ4-73xfyBPNZUfV94ToMMaipg7uLCLMClkF-7tAPx6XCP49-3Gw15DoBtNmxbD6NvIh--r3Pfsx9IBksVkt0r8=w2400">
-            </a>
-            <h3><a href="rocket_pcb.html" target="_blank">Arduino Shield for UBC Rocket Payload</a></h3>
-            <p>Arduino shield to manage voltage readings, temperature sensors, and data logging for the Microbial Fuel Cell payload of UBC Rocket 2024. Click the image or title for more information!</p>
-        </div>
+        <!-- Add new portfolio items here -->
 
     </div>
 
     <hr>
 
     <div class="row text-center">
-
         <div class="col-lg-12">
             <ul class="pagination">
-                <li><a href="#">&laquo;</a></li>
-                <li class="active"><a href="https://maya-taylor.github.io/">1</a></li>
-                <li><a href="https://maya-taylor.github.io/portfolio-page2.html">2</a></li>
-                <!-- Removed pagination links for pages 3, 4, and 5 -->
-                <!--<li><a href="#">3</a></li>-->
-                <!--<li><a href="#">4</a></li>-->
-                <!--<li><a href="#">5</a></li>-->
-                <li><a href="#">&raquo;</a></li>
+                <!-- Link to previous page -->
+                <li><a href="index.html">&laquo;</a></li>
+                <!-- Link to current page (active) -->
+                <li><a href="index.html">1</a></li>
+                <!-- Link to next page -->
+                <li><a href="portfolio-page2.html" class="active">2</a></li>
+                <!-- Link to next page -->
+                <li><a href="portfolio-page3.html">&raquo;</a></li>
             </ul>
         </div>
-
     </div>
-
-</div><!-- /.container -->
-
-<div class="container">
-
-    <hr>
-
-    <footer>
-        <div class="row">
-            <div class="col-lg-12">
-                <p>Copyright &copy; Maya Taylor <span id="getCurrentDate"></span></p>
-            </div>
-        </div>
-    </footer>
 
 </div><!-- /.container -->
 
