@@ -13,28 +13,46 @@
 
     <!-- Custom CSS for the project page -->
     <style>
-        .project-details {
-            max-width: 1000px;
-            margin: 0 auto;
+        .container {
             padding: 20px;
+            text-align: center;
+        }
+        .project-details {
+            max-width: 800px;
+            margin: 0 auto;
         }
         .image {
-            margin-bottom: 20px;
+            margin-bottom: 40px;
             display: inline-block;
             width: 48%; /* Adjust the width as needed */
+            vertical-align: top;
         }
         .image img {
             max-width: 100%;
             height: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         .text {
             width: 48%; /* Adjust the width as needed */
             display: inline-block;
             vertical-align: top;
-            margin-left: 2%;
+            margin-left: 4%;
+            text-align: left;
+        }
+        .text h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
         }
         .text ul {
+            list-style-type: none;
+            padding-left: 0;
             margin-top: 0;
+        }
+        .text ul li {
+            font-size: 16px;
+            margin-bottom: 10px;
+            line-height: 1.5;
         }
     </style>
 </head>
